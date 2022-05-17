@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(-120deg, white, red, white);
+  
+    background-attachment: fixed;
+  }
+  
+  #card {
+    margin: 15%;
+  
+    position: absolute;
+  
+    height: auto;
+  
+    width: 300px;
+  
+    border-radius: 10px;
+  
+    background-color: white;
+  
+    background-image: url("https://image.freepik.com/free-vector/open-gift-box-with-heart-shape-confetti-burst-explosion-3d-valentines-day-romantic-gift_165143-438.jpg");
+  
+    background-size: 50vh, 70vh;
+  
+    box-shadow: 0px 0px 20px red;
+  
+    transform: rotate(5deg);
+    top: 0px;
+    opacity: 0;
+    left: -200%;
+  }
+  
+ .class {
+    margin: auto;
+  
+    padding: 5%;
+  
+    display: block;
+  
+    border-radius: 50%;
+  
+    box-shadow: 0 4px 8px 0 red;
+  
+    width: 100px;
+  
+    height: 100px;
+  }
+  
+  h4 {
+  
+    font-family: "time new roman";
+    margin: 12px;
+    padding: -2%;
+  
+    font-size: 19px;
+    color: rgb(55, 77, 175);
+    overflow: hidden;
+  }
+
+  .card-show {
+      opacity: 1 !important;
+      left: 0 !important;
+      transition: all 2s ;
+  }
+  
